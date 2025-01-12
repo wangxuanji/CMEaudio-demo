@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #6200ea;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  .example {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .audio-row {
+    display: flex;        /* 水平方向排列所有音频 */
+    gap: 20px;            /* 音频之间的间距 */
+  }
+  
+  .audio-item {
+    display: flex;        /* 水平方向排列标题和播放器 */
+    align-items: center;  /* 垂直方向居中对齐 */
+    gap: 10px;            /* 标题和播放器之间的间距 */
+  }
+  
+  audio {
+    width: 250px;         /* 设置播放器的固定宽度 */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+  }
+  
